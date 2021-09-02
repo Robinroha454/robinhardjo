@@ -1,0 +1,16 @@
+html,
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Work page */
+.homepage-text-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
