@@ -4,6 +4,7 @@ body {
   color: black;
   font-family: Arial, sans-serif;
   height: 100%;
+  margin: 0;
 }
 
 /* Navbar */
@@ -17,35 +18,58 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  /* font-size: 17px; */
 }
 
 .right {
-  color: #000000;
+  color: #838383;
   float: left;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .logo {
-  color: #44baff;
+  color: #000000;
+  font-size: 18px;
   float: left;
-  margin-right: 819.7202px;
+  margin-right: 843.0033px;
 }
 
 .logo:hover {
-  color: #44baff;
+  color: #000000;
 }
 
 .topnav .right:hover {
-  color: #44baff;
+  color: #000000;
 }
 
 .topnav .icon {
   display: none;
-  color: #44baff;
+  color: #000000;
+}
+
+/* Homepage */
+.homepage {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-homepage {
+  margin-left: 25px;
+  border-radius: 50%;
+  width: 30%;
+}
+
+.text {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 48%;
 }
 
 /* Mobile responsive */ /* Mobile responsive */ /* Mobile responsive */ /* Mobile responsive */
 /* Mobile responsive */ /* Mobile responsive */ /* Mobile responsive */ /* Mobile responsive */
+
 /* Navbar */
 @media screen and (max-width: 934px) {
   .topnav a:not(:first-child) {
@@ -71,7 +95,30 @@ body {
     display: block;
     text-align: left;
   }
+  .right {
+    color: #000000;
+  }
   .logo {
     margin-right: 0px;
+  }
+}
+
+/* Homepage */
+@media screen and (max-width: 934px) {
+  .homepage {
+    margin-top: 25px;
+    flex-direction: column;
+  }
+  .img-homepage {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+  .text {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-size: 12px;
   }
 }
