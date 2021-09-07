@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+h1, p {
+  text-align: center;
+}
+
 /* Navbar */
 .topnav {
   overflow: hidden;
@@ -18,7 +22,6 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  /* font-size: 17px; */
 }
 
 .right {
@@ -65,6 +68,34 @@ body {
   margin-top: 50px;
   margin-left: 20px;
   width: 48%;
+}
+
+/* About */
+.about {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about img {
+  width: 45%;
+}
+
+.text-about {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+/* Work */
+.work {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.work img {
+  width: 45%;
 }
 
 /* Mobile responsive */ /* Mobile responsive */ /* Mobile responsive */ /* Mobile responsive */
@@ -120,5 +151,24 @@ body {
     margin: auto;
     width: 80%;
     font-size: 12px;
+  }
+}
+
+/* About */
+@media screen and (max-width: 934px) {
+  .about {
+    flex-direction: column;
+    
+  }
+  .about img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .text-about {
+    width: 80%;
+    display: block;
+    margin: auto;
   }
 }
