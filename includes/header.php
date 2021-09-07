@@ -8,6 +8,8 @@
     <title><?php echo $title; ?></title>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@600&display=swap" rel="stylesheet"> 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
 </head>
